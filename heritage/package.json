@@ -1,5 +1,6 @@
 {
   "name": "heritage",
+  "homepage": "https://mohamedmurshalibrahim.github.io/Heritage/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +10,8 @@
     "lint": "eslint .",
     "vercel-build": "vite build",
     "preview": "vite preview"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -b main"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.6",
