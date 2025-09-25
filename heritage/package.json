@@ -6,10 +6,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm build",
     "lint": "eslint .",
     "vercel-build": "npm build",
-    "preview": "vite preview",
+    "preview": "npm preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist -b main"
   },
